@@ -405,3 +405,11 @@ a:hover{ text-decoration:none; }
   font-size:14px;
   opacity:.85;
 }
+.card{
+  transition: all .3s ease;
+}
+
+.card:hover{
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0,0,0,.3);
+}
