@@ -400,3 +400,8 @@ a:hover{ text-decoration:none; }
   margin-bottom:15px;
   font-size:14px;
 }
+.mapa-texto{
+  margin-bottom:12px;
+  font-size:14px;
+  opacity:.85;
+}
