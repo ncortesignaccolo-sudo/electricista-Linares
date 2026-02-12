@@ -362,9 +362,19 @@ a:hover{ text-decoration:none; }
   font-weight: 700;
 }
 
-#contacto .telefono-destacado{
-  font-size: 22px;
-  font-weight: 700;
-  letter-spacing: 1px;
+.telefono-destacado{
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
   margin-top: 8px;
+}
+
+.telefono-destacado a{
+  color: #38BDF8;
+  text-decoration: none;
+  transition: all .2s ease;
+}
+
+.telefono-destacado a:hover{
+  color: #60d5ff;
 }
