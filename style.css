@@ -346,3 +346,25 @@ a:hover{ text-decoration:none; }
   opacity: 1;
   transform: translateY(0);
 }
+/* CONTACTO */
+#contacto .cta-box{
+  padding: 32px;
+  border-radius: 24px;
+  background:
+    radial-gradient(800px 300px at 10% 0%, rgba(0,120,255,.25), transparent 60%),
+    radial-gradient(700px 300px at 90% 20%, rgba(0,80,180,.18), transparent 60%),
+    linear-gradient(145deg, rgba(15,25,45,.95), rgba(8,15,28,.95));
+  border: 1px solid rgba(0,120,255,.25);
+  box-shadow: 0 20px 60px rgba(0,0,0,.6);
+}
+#contacto strong{
+  color: #38BDF8;
+  font-weight: 700;
+}
+
+#contacto .telefono-destacado{
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 8px;
+}
