@@ -336,3 +336,13 @@ a:hover{ text-decoration:none; }
 @media (max-width: 560px){
   .proposal-text{ max-width: 40ch; }
 }
+/* Reveal animations (sutil) */
+.reveal {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity .5s ease, transform .5s ease;
+}
+.reveal.is-visible{
+  opacity: 1;
+  transform: translateY(0);
+}
