@@ -125,6 +125,7 @@ a:hover{ text-decoration:none; }
   box-shadow: var(--shadow2);
   position:relative;
   overflow:hidden;
+  background: linear-gradient(135deg,#1e3a8a,#38bdf8);
 }
 .btn-main::after{
   content:"";
