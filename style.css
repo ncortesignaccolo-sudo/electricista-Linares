@@ -418,4 +418,18 @@ a:hover{ text-decoration:none; }
   margin-top:20px;
   opacity:.9;
 }
+.contact-highlights{
+  margin-top:25px;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+.mini-item{
+  background: rgba(255,255,255,.05);
+  padding:10px 14px;
+  border-radius:12px;
+  font-size:14px;
+  border:1px solid rgba(255,255,255,.08);
+}
 
