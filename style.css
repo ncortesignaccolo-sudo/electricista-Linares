@@ -459,4 +459,17 @@ a:hover{ text-decoration:none; }
     grid-template-columns: 1fr;
   }
 }
+/* Fuerza 2 columnas en escritorio para Contacto + Horario */
+.grid-2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+@media (max-width: 980px){
+  .grid-2{
+    grid-template-columns: 1fr;
+  }
+}
 
