@@ -414,3 +414,8 @@ a:hover{ text-decoration:none; }
   transform: translateY(-6px);
   box-shadow: 0 20px 40px rgba(0,0,0,.3);
 }
+.contact-extra{
+  margin-top:20px;
+  opacity:.9;
+}
+
