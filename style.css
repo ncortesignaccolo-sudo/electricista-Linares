@@ -524,3 +524,18 @@ a{ color:inherit; text-decoration:none; }
   .cards{ grid-template-columns: 1fr; }
   .testimonials{ grid-template-columns: 1fr; }
 }
+body {
+  margin: 0;
+  background: 
+    radial-gradient(circle at 15% 20%, rgba(0, 140, 255, 0.15), transparent 40%),
+    radial-gradient(circle at 85% 80%, rgba(0, 200, 255, 0.12), transparent 40%),
+    linear-gradient(135deg, #050f1a 0%, #081a2b 40%, #0e2a44 100%);
+  background-attachment: fixed;
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle at 50% 50%, rgba(0, 180, 255, 0.05), transparent 60%);
+  pointer-events: none;
+}
