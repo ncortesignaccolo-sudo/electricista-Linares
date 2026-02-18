@@ -548,3 +548,51 @@ body::before {
 body{
   padding-top: 84px; /* ajusta: 72-96px según la altura real del header */
 }
+/* Abierto 24h */
+.open-24{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  padding:12px 14px;
+  border-radius: 999px;
+  background: rgba(20, 200, 120, .08);
+  border: 1px solid rgba(20, 200, 120, .22);
+  width: fit-content;
+}
+
+.status-dot{
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #19e38a;
+  box-shadow: 0 0 0 0 rgba(25,227,138,.55);
+  animation: pulseDot 1.4s infinite;
+}
+
+.status-text{
+  font-weight: 700;
+  color: #bfffe6;
+}
+
+@keyframes pulseDot{
+  0%   { box-shadow: 0 0 0 0 rgba(25,227,138,.55); }
+  70%  { box-shadow: 0 0 0 14px rgba(25,227,138,0); }
+  100% { box-shadow: 0 0 0 0 rgba(25,227,138,0); }
+}
+
+/* Mini “píldoras” de confianza */
+.trust-mini{
+  display:flex;
+  flex-wrap: wrap;
+  gap:10px;
+}
+
+.trust-pill{
+  padding:10px 12px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.10);
+  color: rgba(255,255,255,.86);
+  font-weight: 600;
+  font-size: 14px;
+}
