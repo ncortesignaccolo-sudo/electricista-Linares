@@ -596,3 +596,9 @@ body{
   font-weight: 600;
   font-size: 14px;
 }
+.top-badges {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
